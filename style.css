@@ -1,0 +1,62 @@
+/* Colors could be changed as per the Website Theme */
+
+.container {
+  background: linear-gradient(to left, #e66465, #9198e5);
+}
+
+.carousel-inner {
+  min-height: 40vh;
+  padding: 2rem 0;
+}
+
+.carousel-indicators {
+  position: relative;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgb(199, 25, 25);
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+}
+
+.carousel-indicators .active {
+  background-color: black;
+}
+
+.items {
+  max-width: 800px;
+  margin: auto;
+}
+
+.items img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100%;
+  margin-bottom: 1rem;
+}
+
+.items q {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.items .stars i {
+  color: gold;
+  font-size: 1.5rem;
+  padding: 0 0.5rem;
+}
+
+i.bi.bi-arrow-left {
+  color: black;
+  font-size: 2rem;
+  opacity: 1;
+}
+
+i.bi.bi-arrow-right {
+  color: black;
+  font-size: 2rem;
+}
