@@ -8,6 +8,7 @@
 body{
     overflow-x: hidden;
     margin: 0;
+    background-color: #FFF8F5;
 }
 .curr{
     background-image:linear-gradient(to top,rgba(97, 11, 11, 0.6),rgba(27, 25, 25, 0.9)),url('event.jpeg');
@@ -16,20 +17,32 @@ body{
     color: white;
 }
 .button{
-    background-color: #ff7518;
+    background-color: #F46B3C;
     color: white;
     border-radius: 2px solid white;
     border-radius: 10px;
+    width:120px;
+    margin-right:10px;
+    height:30px;
+    padding-bottom:10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
 }
 .button1{
     background-color: transparent;
     color: white;
-    border-radius: 2px solid white;
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-right:10px;
     border-radius: 10px;
 }
 .cars{
-    background-color:#ffa07a;
-    color:rgb(6, 6, 57);
+    background-color: #F5B7A2;
+    color: #1D275F;
     border:2px black;
     border-radius: 20px;
     height:40px;
@@ -39,17 +52,19 @@ body{
 }
 .btn{
     background-color: transparent;
-    border:2px solid #ff7518;
+    border:2px solid #F46B3C;
+    width:126px;
+    height:36px;
     border-radius: 10%;
 }
 .footer{
-    background-color: #ff7518;
+    background-color:#F46B3C;
     color: white;
     padding: 40px;
 
 }
 .copyright{
-    background-color: rgb(69, 67, 67);
+    background-color:#4B4847;
     margin-bottom: 0px;
     color: white;
     height: 30px;
@@ -69,6 +84,15 @@ i{
     padding-top: 10px;
     border-radius: 20px;
 }
+svg{
+    background-color: white;
+    color:#ff7518;
+    width:40px;
+    height:40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px; 
+}
 .footer-item{
     padding:10px;
 }
@@ -81,4 +105,7 @@ i{
 }
 .heading{
     margin-top:10px;
+}
+.options{
+    background-color:white;
 }
