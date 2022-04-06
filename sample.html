@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://kit.fontawesome.com/977378c28a.js" crossorigin="anonymous"></script>	
+	<script src="script.js" defer></script>
+
+	<title>Main</title>
+</head>
+<style>
+	body{
+		margin: 0;
+		padding: 0;
+		background: #FFF8F5;
+		font-family: 'Poppins';
+
+	}
+	nav{
+
+		width: 100%;
+		background: #FFFFFF;
+		overflow: auto;
+
+	}
+	ul{
+		padding: 0;
+		margin: 0 0 0 150px;
+	    list-style: none;
+	    	margin-left: 725px;
+
+	}
+li{
+	float: left;
+	left: 55px;
+
+
+}
+
+.logo img{
+	position: absolute;
+	margin-top:15px;
+	margin-left:10px ;
+}
+
+nav a{
+	left: 872px;
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	text-decoration: none;
+font-family: 'Poppins';
+
+font-weight: 600;
+line-height: 30px;
+font-size: 20px;
+text-align: center;
+color: #000000;
+
+}
+nav a:hover{
+	background: #F46B3C;
+	transition: 0.5s;
+	text-decoration: none;
+	border-radius: 12px;
+
+	
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.main-text{
+
+	position: absolute;
+width: 535px;
+height: 130px;
+left: 85px;
+top: 202px;
+
+font-family: 'Poppins';
+font-style: normal;
+
+font-size: 51.1397px;
+line-height: 77px;
+
+color: #000000;
+
+
+}
+h4{
+	position: absolute;
+	top: 143px;
+}
+h1,h3{
+	font-weight: 990;
+}
+.but1{
+
+	position: absolute;
+width: 180px;
+height: 53px;
+left: 2px;
+top: 307px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21.4934px;
+line-height: 51px;
+background-color: #F46B3C;
+color: whitesmoke;
+border-radius: 12px;
+}
+.but2{
+	position: absolute;
+width: 180px;
+height: 53px;
+left: 250px;
+top: 307px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21.4934px;
+line-height: 51px;
+background-color: #F2F2F2;
+color: #4B4847;
+border-radius: 12px;
+}
+.main-img{
+	top:80px;
+	right: 20px;
+	float: right;
+	position: absolute;
+	width: 870px;
+
+}
+.foot {
+	position: absolute;
+	top: 490px;
+}
+
+.foote {
+
+	top: 510px;
+	font-weight:600;
+}
+
+.gmclogo{
+	position: absolute;
+	top: 650px;
+	left: 440px;
+}
+
+.gmc{
+position: absolute;
+	top: 760px;
+	font-weight: 800;
+	left: 420px;
+}
+
+.gdsclogo{
+	position: absolute;
+	top: 650px;
+	left: 640px;
+}
+</style>
+<body>
+	<div class="logo"><a href = "#"><img src="images/logo.jpg"></a>
+	</div>
+	<nav>
+			 <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+		<ul class="navbar-links">
+			<li>  <a href="#">Home</a>    </li>
+			<li>  <a href="#">About</a>    </li>
+			<li>  <a href="#">Events</a>    </li>
+			<li>  <a href="#">Team</a>    </li>
+			<li>  <a href="#">Blogs</a>    </li>
+			<li>  <a href="#">Contact</a>    </li>
+		</ul>
+	</nav>
+
+<div class="main-text">
+<h1>	<bold>Lets Build Together</bold></h1>
+	<h3><bold>Student Community</bold></h3>
+	
+<h4>Lorem ipsum dolor sit amet, consectetuer <br>
+adipiscing elit. Aenean commodo ligula eget <br>
+dolor. Aenean massa. Aenean massa. Cum <br>
+sociis natoque penatibus et magnis dis <br>
+parturien</h4>
+<a href="https://discord.gg/kjhK93yjMB"><button class="but1">Join Us</button></a>
+	
+	<button class="but2">Know about us</button>
+
+	<h6 class="foot">Trusted by</h6>
+	<h4 class="foote">Our Collaborators</h4>
+
+
+</div>
+<h6 class="gmc">Give My Certificate</h6>
+<div class="gmclogo"><a href = "#"><img src="images/gmc.png"></a>
+	</div>
+<div class="gdsclogo"><a href = "#"><img src="images/gdsc.png"></a>
+	</div>
+
+<div>
+	<img class="main-img" src="images/main.png">
+</div>
+
+<div></div>
+<div></div>
+
+
+	
+
+
+<script type="text/javascript">
+	
+
+	const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+</script>
+</body>
+</html>
