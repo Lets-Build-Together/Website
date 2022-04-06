@@ -1,0 +1,110 @@
+* {
+    background-color: rgb(245, 230, 212);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 25em;
+    margin: 50px auto;
+    display: grid;
+    grid-template-rows: 60px 50px 50px 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25px;
+    align-items: center;
+   
+}
+
+.heading {
+    grid-column: 1/-1;
+    color: rgb(225, 97, 51);
+    padding-left: 15px;
+}
+
+h1 {
+    text-shadow: 0 1px 15px rgb(226, 201, 9);
+    word-spacing: 40px;
+}
+h1 span{
+    color: rgb(141, 141, 238);
+    font-size: 0.8em;
+   word-spacing: 2px;
+}
+
+.image {
+    grid-column-start: 3;
+    grid-row: 2/-1;
+    
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.icon {
+    box-sizing: border-box;
+    width: 9%; 
+    border-radius: 50%;
+    margin: 5px;
+    align-items: center;
+   padding: 5px;
+}
+.icon img {border-radius: 50%;}
+
+.s2,.s3,.s4,.s5,.s6,.s1{
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ser{
+    font-weight:bold;
+   text-shadow: 0 2px 20px rgba(0, 0, 0,0.5);
+}
+.s1:hover,.s2:hover,.s3:hover,.s4:hover,.s5:hover,.s6:hover,.image:hover {
+    cursor: pointer;
+    border-radius: 0 10px;
+    box-shadow: 0 6px 35px rgba(172, 92, 92, 0.922);
+    transition: 0.5s;
+}
+@media screen and (max-width: 650px) {
+    .icon{
+        display: none;
+    }
+    
+}
+@media screen and (min-width: 768px) and (max-width:983px){
+    .icon{
+        display: none;
+    }
+}
+@media screen and (max-width:520px) {
+    .image{
+        display: none;
+    }
+    .heading{
+        justify-self: center;
+    }
+    .s2,.s3,.s4,.s5,.s6,.s1{
+       text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    main {
+        width: 100%;
+        height: 25em;
+        margin: 50px auto;
+        display: grid;
+        grid-template-rows: 60px 70px 70px 70px 70px 70px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 25px;
+        align-items: center;
+    }
+    .image {
+        grid-column-start: 2;
+        grid-row: 2/-1;
+    }
+   
+
+}
