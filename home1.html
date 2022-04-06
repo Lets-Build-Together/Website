@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="favicon" href="image/food.svg">
+  <title>LBT Community</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/977378c28a.js" crossorigin="anonymous"></script> 
+  <link href="floating-labels.css" rel="stylesheet">
+  <style>
+
+@media only screen and (max-width: 1024px){
+  .nav-link{
+    font-size: 20px;
+
+  }
+  .row{
+    flex-direction: column-reverse;
+    margin: 80px 0;
+  }
+  .col-6{
+    flex-basis: 100%;
+    margin-bottom: 50px;
+  }
+  .col-6 .main-img{
+    width: 80%;
+  }
+}
+
+
+    #navigation{
+      background:#FFFFFF; 
+    }
+    .nav-item{
+      font-size: 18px;
+      padding: 0px 20px 0px 20px;
+
+    }
+    .nav-link{
+      color: black !important;
+      font-weight: 800;
+    }
+    .nav-link:hover{
+      color: #F46B3C !important;
+    }
+   
+body{
+    margin: 0;
+    padding: 0;
+    background: #FFF8F5;
+    font-family: 'Poppins';
+
+  }
+.row{
+display: flex;
+  justify-content:space-between;
+  align-items: center;
+ margin: 100px 0;
+
+}
+
+.col-5{
+  flex-basis: 40%;
+  position: relative;
+  margin-left: 50px;
+}
+
+.col-5 h1{
+  font-weight: 600;
+}
+.col-5 h3{
+font-weight: 600;
+margin: 20px 0 10px;
+
+}
+.col-5 p{
+  font-size: 19px;
+  margin: 30px 0;
+}
+.but1{
+font-weight: 600;
+font-size: 21px;
+  width: 130px;
+  border-radius: 12px;
+  padding: 12px 10px;
+ color: whitesmoke;
+  background: #F46B3C;
+font-family: 'Poppins';
+}
+.but2{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 21px;
+line-height: 51px;
+background-color: #F2F2F2;
+color: #4B4847;
+border-radius: 12px;
+}
+.col-5::after{
+  content: '';
+  width: 10px;
+  height: 25%;
+  background: linear-gradient(#FFF8F599,#F46B3C);
+  position: absolute;
+  left: -12px;
+  top: 8px;
+}
+.col-6{
+  position: absolute;
+  flex-basis: 60%;
+  display: flex;
+  align-items: center;
+  left: 680px;
+  background-size:auto;
+
+}
+.col-6 .main-img{
+width: 100%;
+display: flex;
+}
+
+.sponsors img{
+ 
+  margin: 30px;
+}
+.sponsors h6{
+  top: 525px;
+  margin: 50px;
+  position: absolute;
+}
+.sponsors h4{
+ top: 545px;
+  margin: 50px;
+  position: absolute;
+  font-weight: 600;
+}
+.sponsors img{
+  position: relative;
+left: 290px;
+top: -75px;
+}
+
+
+
+
+
+  </style>
+
+</head>
+<body style="font-family: 'Poppins'; color: black !important;">
+  <!--navbar-->
+
+<nav class="navbar navbar-expand-xl navbar-light fixed-top" id="navigation">
+   <div class="navbar-brand"><img src="images/logo.jpg"></div>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+      <!-- Links -->
+
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+       
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About </a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Events </a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Team</a></li>
+           <li class="nav-item"><a class="nav-link" href="#" >Blogs</a></li>
+          <li class="nav-item"><a class="nav-link" href="#" >Contact </a></li>
+        
+          
+        </ul>
+    </div>
+    </nav>
+
+  <!--navbar ends-->
+  
+<div class="row">
+  <div class="col-5">
+    <h1>Lets Build Together</h1>
+    <h3>Student Community</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetuer <br>
+      adipiscing elit. Aenean commodo ligula eget <br>
+      dolor. Aenean massa. Aenean massa. Cum <br>
+      sociis natoque penatibus et magnis dis <br>
+      parturien
+    </p>
+    <a href="https://discord.gg/kjhK93yjMB"><button class="but1">Join Us</button></a>
+<button class="but2">Know about us</button>
+  </div>
+
+  <div class="col-6">
+     <img class="main-img" src="images/main1.png">
+  </div>
+  </div>
+  <div class="sponsors">
+     <h6>Trusted by</h6>
+  <h4>Our Collaborators</h4>
+
+    <img src="images/gmc.png">
+    <img src="images/gdsc.png">
+    
+
+
+</div>
+
+   
+
+
+</body>
+</html>
