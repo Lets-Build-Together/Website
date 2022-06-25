@@ -62,13 +62,29 @@ a:hover {
   height: 36px;
   border-radius: 10%;
 }
-.footer {
-  background-color: #f46b3c;
+
+/* footer section 
+    Designer: Krupesh Vithlani
+*/
+
+.footer-container {
+  background-color: #3f3f3f;
   color: white;
   padding: 40px;
 }
+.footer-container .footer-link-head{
+  font-weight: bold;
+}
+.footer-container .footer-links{
+  list-style: none;
+  position: relative;
+  right: 32px;
+}
+.footer-container .footer-links li a{
+  color: #fff;
+}
 .copyright {
-  background-color: #4b4847;
+  background-color: #3f3f3f;
   margin-bottom: 0px;
   color: white;
   height: 30px;
@@ -79,15 +95,7 @@ a:hover {
 .card {
   background-color: transparent;
 }
-footer i {
-  background-color: white;
-  color: #ff7518;
-  width: 40px;
-  height: 40px;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-radius: 20px;
-}
+
 svg {
   background-color: white;
   color: #ff7518;
@@ -97,9 +105,7 @@ svg {
   padding-bottom: 10px;
   border-radius: 20px;
 }
-.footer-item {
-  padding: 10px;
-}
+
 .event {
   border: 2px solid #ff7518;
   border-radius: 10px;
