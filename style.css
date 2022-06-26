@@ -381,81 +381,86 @@ h1 span {
 
 /***********************************/
 /*****MEMBERS SECTION*****/
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
 
-  align-content: space-evenly;
 
-  display: flex;
-  justify-content: space-between;
+* {
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
-.column .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: #fff8f5;
-  position: relative;
-  cursor: pointer;
-  width: 70%;
-  height: 80%;
-  float: left;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.column .card .container h2 {
-  margin-left: auto;
-  padding: 0 16px;
-  text-align: center;
-}
-
-.column .card .container .title {
-  color: grey;
-  text-align: center;
-}
-.column .card p {
-  color: grey;
-  text-align: center;
-}
-
-.column .card img {
-  border-radius: 80%;
-  height: 200px;
-
-  max-width: 200px;
-  margin: 10px;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 5px solid #fb9c7c;
+img {
+    border-radius: 50%;
+    height: 18.75rem;
 }
 
 h2 {
-  color: black;
-  margin-left: 50px;
-  margin-top: 20px;
+    margin-top: 0;
+    margin-bottom: 0.4em;
 }
-h3 {
-  color: black;
-  opacity: 0.8;
-  margin-left: 50px;
-  margin-top: 10px;
+
+/*Flex items*/
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3em;
 }
+
+.list-item {
+    display: flex;
+    padding: 0.5em;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 1.5em;
+  
+}
+
+@media all and (min-width: 40em) {
+    .list-item {
+        width: 50%;
+    }
+}
+
+@media all and (min-width: 60em) {
+    .list-item {
+        width: 33.33%;
+        
+    }
+}
+
+.list-content {
+    background-color: #FBFAFA;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: 80%;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.2);
+}
+
+    .list-content p {
+        flex: 1 0 auto;
+    }
+
+h2 {
+    color: #000000;
+    margin-left: 3rem;
+    margin-top: 2.5rem;
+}
+
+
 h5 {
-  color: #575455;
-  margin-left: 900px;
-  margin-right: 10px;
-  margin-top: -90px;
+    color: #575455;
+    margin-left: 70vw;
+    margin-right: 3em;
+    margin-top: -2.5em;
 }
+
+
 
 /**************************************/
 /********TESTIMONIALS SECTION*********/
