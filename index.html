@@ -53,7 +53,7 @@
               <a class="nav-link active" href="#">Team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Blogs</a>
+              <a class="nav-link active" href="#blogs">Blogs</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#">contact</a>
@@ -1422,6 +1422,90 @@
                 </div>
             </div>
         </section>
+        <!-- BLOGS SECTION -->
+        <section class="blogs" id="blogs">
+            <div class="container">
+              <div class="blogs-intro">
+                <h3><b>Blogs</b>
+                  <h3>
+                    <p>Check our recent blogs on our latest updates and features</p>
+              </div>
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="cards-wrapper">
+                      <div class="card">
+                        <img src="./img/blog sample img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <img src="./img/blog img sample1.jpg" class="image" alt="">
+                          <p class="card-text name">Name</p>
+                          <p class="card-text author">Author</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img src="./img/blog sample img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <img src="./img/blog img sample2.jpg" class="image" alt="">
+                          <p class="card-text name">Name</p>
+                          <p class="card-text author">Author</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="cards-wrapper">
+                      <div class="card">
+                        <img src="./img/blog sample img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <img src="./img/blog img sample1.jpg" class="image" alt="">
+                          <p class="card-text name">Name</p>
+                          <p class="card-text author">Author</p>
+                        </div>
+                      </div>
+                      <div class="card ">
+                        <img src="./img/blog sample img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <img src="./img/blog img sample2.jpg" class="image" alt="">
+                          <p class="card-text name">Name</p>
+                          <p class="card-text author">Author</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <div class="cards-wrapper">
+                      <div class="card ">
+                        <img src="./img/blog sample img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <img src="./img/blog img sample1.jpg" class="image" alt="">
+                          <p class="card-text name">Name</p>
+                          <p class="card-text author">Author</p>
+                        </div>
+                      </div>
+                      <div class="card ">
+                        <img src="./img/blog sample img.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <img src="./img/blog img sample2.jpg" class="image" alt="">
+                          <p class="card-text name">Name</p>
+                          <p class="card-text author">Author</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
         <!-- CONTACT US SECTION -->
         <section class="contact">
             <div class="container flexy">
@@ -1487,46 +1571,48 @@
             </div>
         </section>
     </main>
+    <!-- footer section 
+      Designer: Krupesh Vithlani
+    -->
     <footer>
-      <div class="container-fluid p-20 mt-5 footer text-center">
+      <div class="container-fluid footer-container">
         <div class="row">
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-item">
-            <img
-              src="./img/logo.jpg"
-              style="width: 300px; height: 70px; padding: 10px; margin: 10px"
-            />
-            <div>
-              <i class="fa fa-facebook"></i>
-              <i class="fa fa-linkedin"></i>
-              <i class="fa fa-twitter"></i>
-              <i class="fa fa-instagram"></i>
-            </div>
+          <div class="col-md-3">
+            <img class="img-fluid ml-4" src="./img/logo.jpg" alt="">
+            <p class="footer-about mt-3 pe-3">
+              LetsBuildTogether Community is the Community which is a student-run organization on Discord. 
+            </p>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 m-10 footer-item">
-            <h2>QUICK LINKS</h2>
-            <p>Hackathons</p>
-            <p>Open Source</p>
-            <p>Volunteer Group</p>
-            <p>community</p>
+          <div class="col-md-3">
+            <p class="footer-link-head font-weight-bold">Quick Links</p>
+            <ul class="footer-links">
+              <li class="footer-item"><a href="" class="footer-link">Hackathons</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Open Source</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Volunteer Group</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Community</a></li>
+            </ul>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-item">
-            <h2>COMMUNITY</h2>
-            <p>About Us</p>
-            <p>Events</p>
-            <p>Testimonials</p>
-            <p>Blog</p>
+          <div class="col-md-3">
+            <p class="footer-link-head font-weight-bold">Community</p>
+            <ul class="footer-links">
+              <li class="footer-item"><a href="" class="footer-link">About Us</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Events</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Testimonials</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Blog</a></li>
+            </ul>
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 footer-item">
-            <h2>SUPPORT</h2>
-            <p>Contact Us</p>
-            <p>Help Center</p>
-            <p>FAQ's</p>
+          <div class="col-md-3">
+            <p class="footer-link-head font-weight-bold">Support</p>
+            <ul class="footer-links">
+              <li class="footer-item"><a href="" class="footer-link">Contact Us</a></li>
+              <li class="footer-item"><a href="" class="footer-link">Help Center</a></li>
+              <li class="footer-item"><a href="" class="footer-link">FAQs</a></li>
+              
+            </ul>
           </div>
         </div>
       </div>
-      <div class="container-fluid copyright text-center">
-        <p>&copy;2022-Lets Build Community.All Rights Reserved.</p>
-      </div>
+      <p class="copyright text-center">Copyright &copy; 2022-23 Lets Build Together Community </p>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
