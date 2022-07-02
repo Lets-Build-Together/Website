@@ -81,7 +81,24 @@ a:hover {
   margin:2.5rem;
   width:calc(100%/2);
   border-radius:1.5em; 
+  transition : 0.75ms ease-in-out;
 }
+
+.blogs .card:hover{
+  height:27rem;
+  margin:2rem;
+  border:3.5px solid #f5b7a2;  
+  font-weight:bold
+}
+
+.blogs button{
+  background-color:#f5b7a2;
+  border-radius:50%;
+  height:3rem;
+  width:3rem;
+  text-align:center;
+}
+
 .blogs .card-body .image {
   display:inline;
   margin: 0 1rem;
@@ -91,11 +108,17 @@ a:hover {
   border-radius:50%;
   float:left;
   box-shadow:0 5px 10px rgba(0, 0, 0, 0.1);
+  transition : 0.65ms ease-in-out;
+
 }
 .blogs .card-img-top{
   height:17rem;
   border-radius:2em;
-  display:inline
+  display:inline;
+}
+.blogs .card-img-top:hover{
+  border-radius:1.5em;
+  display:inline;
 }
 
 .blogs .name{
@@ -104,6 +127,9 @@ a:hover {
   font-size: 1.4rem;
   margin-left:2rem;
   margin-top:0.5rem;
+}
+.blogs .name:hover{
+  font-size: 1.5rem;
 }
 .blogs .author{
   display:block;
