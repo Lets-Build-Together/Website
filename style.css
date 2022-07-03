@@ -170,7 +170,7 @@ a:hover {
   position: relative;
   right: 32px;
 }
-.footer-container .footer-links li a{
+.footer-container .footer-links .footer-item .footer-link{
   color: #fff;
 }
 .copyright {
@@ -480,7 +480,7 @@ h1 span {
 
 ul, li {
     margin: 0;
-    padding: 3em 8em 0 8em;
+    /* padding: 3em 8em 0 8em; */
     list-style: none;  
 }
 
